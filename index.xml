@@ -36,6 +36,13 @@
       <description>Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&amp;rsquo;ll refer to this robot as the &amp;ldquo;Articubot&amp;rdquo;.</description>
     </item>
     <item>
+      <title>Articubot Project Work Plan</title>
+      <link>https://f24.ros.santoslab.org/articubot/articubot-work-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/articubot/articubot-work-plan/</guid>
+      <description>Overview In Fall 2024, students in the CS 890 ROS class did an excellent job on building the articubot.&#xA;Now we need to work through their artifacts and come up with cleaned up instructions, artifacts, etc. to form both instructions and model solution for future classes.&#xA;The outcomes of the Fall 2024 project are here: https://github.com/santoslab/890-ros-f24-project-articubot&#xA;Articulated Robotics YouTube Playlist&#xA;Josh Newans Github Repo&#xA;Introduction and Background AR Video: Why Do I Think You Should Build This Robot Design and Simulation Create a Robot Model in URDF AR Video: Creating a rough 3D model of our robot with URDF AR Video segment on adapting the URDF above to the new version of Gazebo (at timestamp 8:00): How to upgrade your ROS project to the New Gazebo Instructions on how to adapt the URDF instructions above for the new version of Gazebo and for customizing the URDF to your particular project (e.</description>
+    </item>
+    <item>
       <title>Project</title>
       <link>https://f24.ros.santoslab.org/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
