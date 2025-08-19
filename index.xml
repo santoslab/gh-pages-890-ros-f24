@@ -12,7 +12,7 @@
       <link>https://f24.ros.santoslab.org/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://f24.ros.santoslab.org/schedule/</guid>
-      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 19 Tuesday:&#xA;Lecture: Course Administration Lecture: ROS2 Concept Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics</description>
+      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 25 Tuesday:&#xA;Lecture: Course Administration Lecture: ROS2 Concept Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics</description>
     </item>
     <item>
       <title>Lectures</title>
@@ -61,7 +61,7 @@
       <link>https://f24.ros.santoslab.org/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://f24.ros.santoslab.org/tools/</guid>
-      <description>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.&#xA;ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class.</description>
+      <description>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.&#xA;ROS2 Jazzy Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running on Ubuntu 24.04. If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation. There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class.</description>
     </item>
     <item>
       <title></title>

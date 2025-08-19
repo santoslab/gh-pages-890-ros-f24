@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
 <meta name="description" content="This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
-ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class." />
+ROS2 Jazzy Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running on Ubuntu 24.04. If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation. There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class." />
 <meta name="keywords" content="robotics, middleware, model-based development, formal methods" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -43,14 +43,14 @@ ROS2 Humble Distribution Our class exercises, assignments, and projects are stan
 
 <meta itemprop="name" content="Tools">
 <meta itemprop="description" content="This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
-ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class.">
+ROS2 Jazzy Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running on Ubuntu 24.04. If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation. There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class.">
 
-<meta itemprop="wordCount" content="297"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="370"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Tools"/>
 <meta name="twitter:description" content="This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
-ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class."/>
+ROS2 Jazzy Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running on Ubuntu 24.04. If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation. There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class."/>
 
 
 
@@ -204,41 +204,41 @@ ROS2 Humble Distribution Our class exercises, assignments, and projects are stan
 
             <div class="post-content">
                 <p>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.</p>
-<h2 id="ros2-humble-distribution">ROS2 Humble Distribution</h2>
-<p>Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running
-on Ubuntu 22.04.   If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation.  The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class.</p>
-<p>There are a lot of resources for setting up a virtual machine and installing Ubuntu 22.04, so the instruction below assume that you have already done that.</p>
-<p>Install ROS2 Humble based on the instructions on the <a href="https://docs.ros.org/en/humble/Installation.html">Humble distribution Installation</a> documentation.  There is also a <a href="https://www.youtube.com/watch?v=0aPbWsyENA8&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy">video walkthrough</a> by Edouard Renard on YouTube.</p>
+<h2 id="ros2-jazzy-distribution">ROS2 Jazzy Distribution</h2>
+<p>Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running
+on Ubuntu 24.04.   If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation.  There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class.</p>
+<p>Note: in previous years of the course, we used the ROS Humble distribution running on Ubuntu 22.04.  If you happen to see mentions of <code>humble</code> or <code>22.04</code> in the course material, just please replace that with <code>jazzy</code> and <code>24.04</code>.  For most of the base ROS2 libraries, Jazzy usage is identical to Humble usage.  For Gazebo and ROS2 control, there are some differences between the two.</p>
+<p>There are a lot of resources for setting up a virtual machine and installing Ubuntu 24.04, so the instruction below assume that you have already done that.</p>
+<p>Install ROS2 Jazzy via debian packages based on the instructions on the <a href="https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html">Jazzy distribution Installation</a> documentation.  For a detailed walkthrough of installation, it&rsquo;s best to consult our textbook &ndash; Chapter 2, Section &ldquo;Installing ROS 2 on Ubuntu&rdquo;.</p>
 <p>Here are some additional notes:</p>
 <ul>
 <li>
-<p>Follow the installation instructions through the <strong>Try some examples</strong> (Talker-listener) — this will ensure that your installation is “working”</p>
+<p>Installing the development tools under <code>Install development tools (optional)</code> is listed as optional, but they are <em>REQUIRED</em> for our course work, so please install them.</p>
 </li>
 <li>
-<p>Under Installing ROS 2 Packages, choose the Desktop Install</p>
+<p>Under Installing ROS 2, choose the Desktop Install</p>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install ros-humble-desktop
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install ros-jazzy-desktop
 </span></span></code></pre></div><ul>
 <li>
-<p>Note: in the Renard video above, the <code>Development tools: Compilers and other tools to build ROS packages</code> is not mentioned.  You can go ahead and an install those.   Or.. you can just install as we need them in the exercises/homework.</p>
+<p>Follow the installation instructions through the <strong>Try some examples</strong> (Talker-listener) — this will ensure that your installation is “working”</p>
 </li>
 <li>
 <p>When doing the <strong>Environment setup</strong> steps, you should also add</p>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source /opt/ros/humble/setup.bash
-</span></span></code></pre></div><p>to your <code>.bashrc</code> file, so that the ROS2 environment variables, etc. are set up each time you open a new terminal window
-(Adding this to your <code>.bashrc</code> is suggested in the Renard video).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source /opt/ros/jazzy/setup.bash
+</span></span></code></pre></div><p>to your <code>.bashrc</code> file, so that the ROS2 environment variables, etc. are set up each time you open a new terminal window.</p>
 <h2 id="terminator-terminal-application">Terminator Terminal Application</h2>
 <p>Terminator is a terminal application that is convenient for us because it enables easily tiling of multiple terminal windows.</p>
 <ul>
-<li><a href="https://linuxgenie.net/how-to-install-terminator-on-ubuntu-22-04/">Terminator installation</a></li>
+<li><a href="https://linuxgenie.net/how-to-install-terminator-on-ubuntu-22-04/">Terminator installation</a> (these instructions are presented for Ubuntu 22.04 but they should also work for 24.04)</li>
 <li><a href="https://terminator-gtk3.readthedocs.io/en/latest/index.html">Terminator documentation</a></li>
 </ul>
 <h2 id="vscode">VSCode</h2>
 <p>Install VSCode on your machine.
-Install the Microsoft VSCode extension for ROS as described in this <a href="https://youtu.be/wfCuPQ_6VbI?list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;t=155">video</a></p>
+Install the Microsoft VSCode extension for ROS as described in this <a href="https://youtu.be/wfCuPQ_6VbI?list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;t=155">video</a>.</p>
 
             </div>
         </article>
