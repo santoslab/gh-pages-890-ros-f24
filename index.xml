@@ -5,77 +5,111 @@
     <link>https://f24.ros.santoslab.org/</link>
     <description>Recent content on CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://f24.ros.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://f24.ros.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Schedule</title>
       <link>https://f24.ros.santoslab.org/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/schedule/</guid>
-      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 25 Tuesday:&#xA;Lecture: Course Administration Lecture: ROS2 Concept Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics</description>
+      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.
+Week 01: August 25 Tuesday:
+Lecture: Course Administration Lecture: ROS2 Concept Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics</description>
     </item>
+    
     <item>
       <title>Lectures</title>
       <link>https://f24.ros.santoslab.org/lectures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/lectures/</guid>
-      <description>Lecture: Course Administration This lecture describes the logistics of the course including what material we will use for learning, pedagogical approach (lecture style, exercises, assignements), grading scale, etc.&#xA;Slides (pdf)&#xA;Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup This lecture provides a survey of primary concepts of ROS2 middleware and support libraries. It also indicates what concepts we will emphasize in our lectures, assignments, and projects.&#xA;Slides (pdf)&#xA;Resources</description>
+      <description>Lecture: Course Administration This lecture describes the logistics of the course including what material we will use for learning, pedagogical approach (lecture style, exercises, assignements), grading scale, etc.
+Lecture Materials
+Slides Video Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup This lecture provides a survey of primary concepts of ROS2 middleware and support libraries. It also indicates what concepts we will emphasize in our lectures, assignments, and projects.
+Lecture Materials</description>
     </item>
+    
     <item>
       <title>Agriculture Project</title>
       <link>https://f24.ros.santoslab.org/agproject/agproject-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/agproject/agproject-overview/</guid>
-      <description>Project Concept The specific goals for a project for agricultural robotics have not been identified yet.&#xA;The general goal would be to explore the use of ROS2 technologies for agricultural robotics, or for agriculture sensing, data collection, analysis, etc. For example, this could involve&#xA;using the ROS2 Control package to implement sensor hardware interfacing for an existing ag project, using microRos integrated with ROS2 in an architecture representative of an ag related application.</description>
+      <description>Project Concept The specific goals for a project for agricultural robotics have not been identified yet.
+The general goal would be to explore the use of ROS2 technologies for agricultural robotics, or for agriculture sensing, data collection, analysis, etc. For example, this could involve
+using the ROS2 Control package to implement sensor hardware interfacing for an existing ag project, using microRos integrated with ROS2 in an architecture representative of an ag related application.</description>
     </item>
+    
     <item>
       <title>Articubot Project</title>
       <link>https://f24.ros.santoslab.org/articubot/articubot-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/articubot/articubot-overview/</guid>
       <description>Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&amp;rsquo;ll refer to this robot as the &amp;ldquo;Articubot&amp;rdquo;.</description>
     </item>
+    
     <item>
       <title>Articubot Project Work Plan</title>
       <link>https://f24.ros.santoslab.org/articubot/articubot-work-plan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/articubot/articubot-work-plan/</guid>
-      <description>Overview In Fall 2024, students in the CS 890 ROS class did an excellent job on building the articubot.&#xA;Now we need to work through their artifacts and come up with cleaned up instructions, artifacts, etc. to form both instructions and model solution for future classes.&#xA;The outcomes of the Fall 2024 project are here: https://github.com/santoslab/890-ros-f24-project-articubot&#xA;Articulated Robotics YouTube Playlist&#xA;Josh Newans Github Repo&#xA;Introduction and Background AR Video: Why Do I Think You Should Build This Robot Design and Simulation Create a Robot Model in URDF AR Video: Creating a rough 3D model of our robot with URDF AR Video segment on adapting the URDF above to the new version of Gazebo (at timestamp 8:00): How to upgrade your ROS project to the New Gazebo Instructions on how to adapt the URDF instructions above for the new version of Gazebo and for customizing the URDF to your particular project (e.</description>
+      <description>Overview In Fall 2024, students in the CS 890 ROS class did an excellent job on building the articubot.
+Now we need to work through their artifacts and come up with cleaned up instructions, artifacts, etc. to form both instructions and model solution for future classes.
+The outcomes of the Fall 2024 project are here: https://github.com/santoslab/890-ros-f24-project-articubot
+Articulated Robotics YouTube Playlist
+Josh Newans Github Repo
+Introduction and Background AR Video: Why Do I Think You Should Build This Robot Design and Simulation Create a Robot Model in URDF AR Video: Creating a rough 3D model of our robot with URDF AR Video segment on adapting the URDF above to the new version of Gazebo (at timestamp 8:00): How to upgrade your ROS project to the New Gazebo Instructions on how to adapt the URDF instructions above for the new version of Gazebo and for customizing the URDF to your particular project (e.</description>
     </item>
+    
     <item>
       <title>Project</title>
       <link>https://f24.ros.santoslab.org/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/project/</guid>
-      <description>There are several possibilities for a class project. In most cases, two students will team for a project, though you can do a project individually if you wish. Project topics are listed below.&#xA;Each student is expected to make substantial contributions to the project and to demonstrate mastery of core ROS2 concepts and one or more specializations (e.g., navigation, sensor/control interfacing, etc.) The project deliverables include a final working implementation and an accompany presentation, along with multiple planning presentations and interim reports.</description>
+      <description>There are several possibilities for a class project. In most cases, two students will team for a project, though you can do a project individually if you wish. Project topics are listed below.
+Each student is expected to make substantial contributions to the project and to demonstrate mastery of core ROS2 concepts and one or more specializations (e.g., navigation, sensor/control interfacing, etc.) The project deliverables include a final working implementation and an accompany presentation, along with multiple planning presentations and interim reports.</description>
     </item>
+    
     <item>
       <title>TurtleBot Project</title>
       <link>https://f24.ros.santoslab.org/turtlebot/turtlebot-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/turtlebot/turtlebot-overview/</guid>
       <description>Overview TurtleBot 4 is the next-generation of the world&amp;rsquo;s most popular open source robotics platform for education and research. The chassis and base mechanical aspects of the robot are based on the iRobot/Roomba robotic household vacuum cleaner. The TurtleBot 4 is obtained by adding an application computer (a Raspberry Pi 4) and a collection of common robot sensors. Specifically, the TurtleBot 4 has a iRobot Create3 mobile base, a powerful Raspberry Pi 4 running ROS 2, 2D LiDAR, OAK-D-PRO 4K RGB autofocus camera, and more.</description>
     </item>
+    
     <item>
       <title>Tools</title>
       <link>https://f24.ros.santoslab.org/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/tools/</guid>
-      <description>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.&#xA;ROS2 Jazzy Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running on Ubuntu 24.04. If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation. There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class.</description>
+      <description>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
+ROS2 Jazzy Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Jazzy Distribution running on Ubuntu 24.04. If you cannot install Ubuntu 24.04 directly on your machine, you will need to use a virtual machine-based installation. There is a personal use version of VMWare and we typically use that in our research lab, so that is what we will support in class.</description>
     </item>
+    
     <item>
       <title></title>
       <link>https://f24.ros.santoslab.org/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/bio/</guid>
       <description>John Hatcliff &amp;ndash; Bio Sketch Bio Sketch - To be Completed</description>
     </item>
+    
     <item>
       <title></title>
       <link>https://f24.ros.santoslab.org/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://f24.ros.santoslab.org/overview/</guid>
-      <description>Overview This course covers basic concepts and applications of ROS2 (Robot Operating System). ROS2 provides a collection of component-oriented abstractions for coding software for robots. This includes aquisition of sensor data, action planning, robot control, and other interactions between robots and their environment. The ROS ecosystem also includes a several powerful design (RVIZ) and simulation (Gazebo) frameworks. Students will be introduced to the concepts above using short programming assignments.&#xA;The course includes a significant project component in which students apply the techniques above to both simulated and physical robots.</description>
+      <description>Overview This course covers basic concepts and applications of ROS2 (Robot Operating System). ROS2 provides a collection of component-oriented abstractions for coding software for robots. This includes aquisition of sensor data, action planning, robot control, and other interactions between robots and their environment. The ROS ecosystem also includes a several powerful design (RVIZ) and simulation (Gazebo) frameworks. Students will be introduced to the concepts above using short programming assignments.
+The course includes a significant project component in which students apply the techniques above to both simulated and physical robots.</description>
     </item>
+    
   </channel>
 </rss>
