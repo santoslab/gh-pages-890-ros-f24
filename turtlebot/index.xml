@@ -5,15 +5,14 @@
     <link>https://f24.ros.santoslab.org/turtlebot/</link>
     <description>Recent content in Turtlebots on CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://f24.ros.santoslab.org/turtlebot/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://f24.ros.santoslab.org/turtlebot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TurtleBot Project</title>
       <link>https://f24.ros.santoslab.org/turtlebot/turtlebot-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://f24.ros.santoslab.org/turtlebot/turtlebot-overview/</guid>
       <description>Overview TurtleBot 4 is the next-generation of the world&amp;rsquo;s most popular open source robotics platform for education and research. The chassis and base mechanical aspects of the robot are based on the iRobot/Roomba robotic household vacuum cleaner. The TurtleBot 4 is obtained by adding an application computer (a Raspberry Pi 4) and a collection of common robot sensors. Specifically, the TurtleBot 4 has a iRobot Create3 mobile base, a powerful Raspberry Pi 4 running ROS 2, 2D LiDAR, OAK-D-PRO 4K RGB autofocus camera, and more.</description>
     </item>
-    
   </channel>
 </rss>
